@@ -283,10 +283,11 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 0;
-    background-image: url('../images/bg-bussiness.svg');
+    background-image: url('../images/background-dashboard.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    opacity: .5;
 }
 
 header {
