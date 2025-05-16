@@ -907,7 +907,7 @@ svg {
 }
 
 .dev-phone--dark .dev-phone__body {
-    background-color: var(--color-black);
+    background-color: #004c39;
     border: 1px solid #004c39;
 }
 
