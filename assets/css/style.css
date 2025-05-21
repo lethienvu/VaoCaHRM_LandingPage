@@ -283,17 +283,17 @@ body {
     width: 100vw;
     height: 100vh;
     z-index: 0;
-    background-image: url('../images/simpleBG.png');
+    background-image: url('../images/simpleBG.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    opacity: .5;
+    opacity: .6;
 }
 
 header {
     display: flex;
     flex-direction: column;
-    background-color: var(--accent-color);
+    /* background: linear-gradient(0deg,rgba(255,255,255,.5) 0%,rgba(255,255,255,.5) 100%); */
     color: white;
     position: fixed;
     top: 0;
@@ -349,6 +349,7 @@ a {
 .logo {
     font-size: 1.2rem;
     font-weight: bold;
+    padding-left: 1rem;
 }
 
 .menu-controls {
